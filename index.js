@@ -24,10 +24,13 @@ const sebuahArray = [
   4,
   5
 ]
+const arr = [1, "dasf", null, true, undefined, "string", 12.3]
 const sebuahObject = {
   nama: "John Doe",
   umur: 30
 }
+
+console.log(sebuahObject.nama) //
 
 console.log(3 === "3") //
 
@@ -40,6 +43,10 @@ function tambah(a, b) {
   }
 }
 
+tambah(5, 10)
+
+
+tambah(20, 30)
 
 
 
